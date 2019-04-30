@@ -1,0 +1,4 @@
+qa\zoopla\assertions\Compare.class
+qa\zoopla\pages\Search_page.class
+qa\zoopla\base\BrowserConfigure.class
+qa\zoopla\pages\Searchresult_page.class

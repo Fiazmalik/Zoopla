@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Zoopla" duration-ms="48775" started-at="2019-04-30T05:34:44Z" finished-at="2019-04-30T05:35:33Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:qa.zoopla.testrunner.TestRunner_zoopla@12843fce]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Search" duration-ms="48775" started-at="2019-04-30T05:34:44Z" finished-at="2019-04-30T05:35:33Z">
+      <class name="qa.zoopla.testrunner.TestRunner_zoopla">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:qa.zoopla.testrunner.TestRunner_zoopla@12843fce]" name="setUpClass" is-config="true" duration-ms="194" started-at="2019-04-30T05:34:44Z" finished-at="2019-04-30T05:34:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:qa.zoopla.testrunner.TestRunner_zoopla@12843fce]" name="feature" duration-ms="48505" started-at="2019-04-30T05:34:45Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-04-30T05:35:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Search property]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:qa.zoopla.testrunner.TestRunner_zoopla@12843fce]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2019-04-30T05:35:33Z" finished-at="2019-04-30T05:35:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- qa.zoopla.testrunner.TestRunner_zoopla -->
+    </test> <!-- Search -->
+  </suite> <!-- Zoopla -->
+</testng-results>
